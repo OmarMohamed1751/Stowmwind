@@ -1,0 +1,6 @@
+framework module Pods_Stormwind {
+  umbrella header "Pods-Stormwind-umbrella.h"
+
+  export *
+  module * { export * }
+}

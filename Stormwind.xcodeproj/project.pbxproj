@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0754BD21237226E200DF7609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754BD20237226E200DF7609 /* AppDelegate.swift */; };
+		0754BD23237226E200DF7609 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754BD22237226E200DF7609 /* WeatherVC.swift */; };
+		0754BD26237226E200DF7609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0754BD24237226E200DF7609 /* Main.storyboard */; };
+		0754BD2B237226E900DF7609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0754BD29237226E900DF7609 /* LaunchScreen.storyboard */; };
+		0754BD3623722B5300DF7609 /* ChangeCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754BD3523722B5300DF7609 /* ChangeCityVC.swift */; };
+		0754BD3923723BD900DF7609 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754BD3823723BD900DF7609 /* URLs.swift */; };
+		0754BD3C237242D300DF7609 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754BD3B237242D300DF7609 /* UIViewController.swift */; };
+		0754BD3E23724D8800DF7609 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754BD3D23724D8800DF7609 /* Api.swift */; };
+		075576DB23753A79004D6F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075576DA23753A78004D6F05 /* Assets.xcassets */; };
+		07FE5CB22387480400C8ED70 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE5CB12387480400C8ED70 /* WeatherData.swift */; };
+		DB72809CA6E6DDF531EB298B /* Pods_Stormwind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CFA8358CD9508AE8926462 /* Pods_Stormwind.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0754BD1D237226E200DF7609 /* Stormwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0754BD20237226E200DF7609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0754BD22237226E200DF7609 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		0754BD25237226E200DF7609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0754BD2A237226E900DF7609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0754BD2C237226E900DF7609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0754BD3523722B5300DF7609 /* ChangeCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityVC.swift; sourceTree = "<group>"; };
+		0754BD3823723BD900DF7609 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		0754BD3B237242D300DF7609 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		0754BD3D23724D8800DF7609 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		075576DA23753A78004D6F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07FE5CB12387480400C8ED70 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		51CFA8358CD9508AE8926462 /* Pods_Stormwind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stormwind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AD5B532F41BB45ABDCFA6B /* Pods-Stormwind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stormwind.debug.xcconfig"; path = "Target Support Files/Pods-Stormwind/Pods-Stormwind.debug.xcconfig"; sourceTree = "<group>"; };
+		6BDA4005F781DF0BC142715D /* Pods-Stormwind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stormwind.release.xcconfig"; path = "Target Support Files/Pods-Stormwind/Pods-Stormwind.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0754BD1A237226E200DF7609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB72809CA6E6DDF531EB298B /* Pods_Stormwind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0754BD14237226E200DF7609 = {
+			isa = PBXGroup;
+			children = (
+				0754BD1F237226E200DF7609 /* Stormwind */,
+				0754BD1E237226E200DF7609 /* Products */,
+				383724F1A7EA461BEC07B060 /* Pods */,
+				33E6F47C691CC4D112B9FA9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0754BD1E237226E200DF7609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0754BD1D237226E200DF7609 /* Stormwind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0754BD1F237226E200DF7609 /* Stormwind */ = {
+			isa = PBXGroup;
+			children = (
+				0754BD20237226E200DF7609 /* AppDelegate.swift */,
+				0754BD3A237242B000DF7609 /* Extensions */,
+				0754BD3723723B8300DF7609 /* API */,
+				0754BD3423722B1B00DF7609 /* Model */,
+				0754BD3323722B0D00DF7609 /* View */,
+				0754BD3223722AFB00DF7609 /* Controller */,
+				0754BD29237226E900DF7609 /* LaunchScreen.storyboard */,
+				075576DA23753A78004D6F05 /* Assets.xcassets */,
+				0754BD2C237226E900DF7609 /* Info.plist */,
+			);
+			path = Stormwind;
+			sourceTree = "<group>";
+		};
+		0754BD3223722AFB00DF7609 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0754BD22237226E200DF7609 /* WeatherVC.swift */,
+				0754BD3523722B5300DF7609 /* ChangeCityVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0754BD3323722B0D00DF7609 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0754BD24237226E200DF7609 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0754BD3423722B1B00DF7609 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07FE5CB12387480400C8ED70 /* WeatherData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0754BD3723723B8300DF7609 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0754BD3823723BD900DF7609 /* URLs.swift */,
+				0754BD3D23724D8800DF7609 /* Api.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0754BD3A237242B000DF7609 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0754BD3B237242D300DF7609 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		33E6F47C691CC4D112B9FA9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51CFA8358CD9508AE8926462 /* Pods_Stormwind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		383724F1A7EA461BEC07B060 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58AD5B532F41BB45ABDCFA6B /* Pods-Stormwind.debug.xcconfig */,
+				6BDA4005F781DF0BC142715D /* Pods-Stormwind.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0754BD1C237226E200DF7609 /* Stormwind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0754BD2F237226E900DF7609 /* Build configuration list for PBXNativeTarget "Stormwind" */;
+			buildPhases = (
+				E416163BC898B84D3B69E587 /* [CP] Check Pods Manifest.lock */,
+				0754BD19237226E200DF7609 /* Sources */,
+				0754BD1A237226E200DF7609 /* Frameworks */,
+				0754BD1B237226E200DF7609 /* Resources */,
+				4B1640BD7B75CADD119AB530 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stormwind;
+			productName = Stormwind;
+			productReference = 0754BD1D237226E200DF7609 /* Stormwind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0754BD15237226E200DF7609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Omar;
+				TargetAttributes = {
+					0754BD1C237226E200DF7609 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0754BD18237226E200DF7609 /* Build configuration list for PBXProject "Stormwind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0754BD14237226E200DF7609;
+			productRefGroup = 0754BD1E237226E200DF7609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0754BD1C237226E200DF7609 /* Stormwind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0754BD1B237226E200DF7609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0754BD2B237226E900DF7609 /* LaunchScreen.storyboard in Resources */,
+				075576DB23753A79004D6F05 /* Assets.xcassets in Resources */,
+				0754BD26237226E200DF7609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B1640BD7B75CADD119AB530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stormwind/Pods-Stormwind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stormwind/Pods-Stormwind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stormwind/Pods-Stormwind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E416163BC898B84D3B69E587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stormwind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0754BD19237226E200DF7609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0754BD3E23724D8800DF7609 /* Api.swift in Sources */,
+				0754BD23237226E200DF7609 /* WeatherVC.swift in Sources */,
+				0754BD21237226E200DF7609 /* AppDelegate.swift in Sources */,
+				0754BD3C237242D300DF7609 /* UIViewController.swift in Sources */,
+				0754BD3623722B5300DF7609 /* ChangeCityVC.swift in Sources */,
+				0754BD3923723BD900DF7609 /* URLs.swift in Sources */,
+				07FE5CB22387480400C8ED70 /* WeatherData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0754BD24237226E200DF7609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0754BD25237226E200DF7609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0754BD29237226E900DF7609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0754BD2A237226E900DF7609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0754BD2D237226E900DF7609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0754BD2E237226E900DF7609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0754BD30237226E900DF7609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58AD5B532F41BB45ABDCFA6B /* Pods-Stormwind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stormwind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stormwind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0754BD31237226E900DF7609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BDA4005F781DF0BC142715D /* Pods-Stormwind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stormwind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stormwind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0754BD18237226E200DF7609 /* Build configuration list for PBXProject "Stormwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0754BD2D237226E900DF7609 /* Debug */,
+				0754BD2E237226E900DF7609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0754BD2F237226E900DF7609 /* Build configuration list for PBXNativeTarget "Stormwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0754BD30237226E900DF7609 /* Debug */,
+				0754BD31237226E900DF7609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0754BD15237226E200DF7609 /* Project object */;
+}
